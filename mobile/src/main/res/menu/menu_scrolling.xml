@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ScrollingActivity">
+
+      <!--
+      http://stackoverflow.com/questions/8614293/android-get-view-reference-to-a-menu-item
+      -->
+      <item android:id="@+id/action_settings"
+            android:title="@string/action_settings"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+
+      <item android:id="@+id/action_login_in_out"
+            android:title="@string/action_disconnect"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+
+</menu>
